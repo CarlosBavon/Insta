@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .search-input {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+  }
+  
+  .icons span {
+    margin-left: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+  }
+  
+  .stories {
+    display: flex;
+    overflow-x: auto;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .story {
+    background: #eee;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 60px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .feed {
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .post {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .profile-pic {
+    width: 35px;
+    height: 35px;
+    background: #ccc;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 10px;
+  }
+  
+  .username {
+    font-weight: bold;
+  }
+  
+  .post-img {
+    width: 100%;
+    display: block;
+  }
+  
+  .post-actions {
+    padding: 10px;
+    font-size: 1.4rem;
+  }
+  
+  .likes, .caption {
+    padding: 0 10px 10px;
+  }
+  
